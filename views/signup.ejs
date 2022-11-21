@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+ <title>Registrarse</title>
+</head>
+<body>
+        <%- include('header') %>
+    <div class="wrapper fadeInDown">
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+                <form>
+                    <form>
+                        <input type="text" id="login" class="fadeIn second" name="p_nombre" placeholder="Primer nombre">
+                        <input type="text" id="login" class="fadeIn second" name="s_nombre" placeholder="Segundo nombre">
+                        <input type="text" id="login" class="fadeIn second" name="p_apellido" placeholder="Primer apellido">                                                                        
+                        <input type="text" id="login" class="fadeIn second" name="s_apellido" placeholder="Segundo apellido">                                                                                                                                                                        
+                        <input type="text" id="login" class="fadeIn second" name="email" placeholder="Correo Electronico">
+                        <input type="text" id="login" class="fadeIn second" name="cedula" placeholder="cedula">                                                                                                                                                                        
+                        <input type="text" id="login" class="fadeIn second" name="telf" placeholder="telefono">                                                                                                                                                                        
+                        <input type="text" id="login" class="fadeIn second" name="direccion_1" placeholder="direccion 1">
+                        <input type="text" id="login" class="fadeIn second" name="direccion_2" placeholder="direccion 2 (opcional)">  
+                        <input type="text" id="login" class="fadeIn second" name="casa" placeholder="casa">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                        <input type="text" id="password" class="fadeIn third" name="password" placeholder="Contraseña">
+                        <input type="text" id="password" class="fadeIn third" name="repeatedPassword" placeholder="Confirmar Contraseña">
+                        <input type="submit" class="fadeIn fourth" value="Registrarse">
+                      </form>
+                      <div >
+                    <a href="/login" class="underlineHover" type="submit" name="register" value="register">Iniciar Sesion</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
